@@ -1,0 +1,233 @@
+{\rtf1\ansi\ansicpg1252\deff0\deflang1046{\fonttbl{\f0\fnil MS Sans Serif;}{\f1\fnil\fcharset0 MS Sans Serif;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;}
+\viewkind4\uc1\pard\cf1\b\f0\fs16 001 - Atributo: \cf2\b0 ABASTECIMENTO \cf1\b 
+\par \cf0\b0 varchar(100)
+\par 
+\par \cf1\b 002 - Atributo: \cf2\b0 AUDI\cf1\b 
+\par \cf0\b0 varchar(60)
+\par 
+\par \cf1\b 003 - Rela\f1\'e7\'e3o: \cf2\b0 Ajudam \cf1\b 
+\par \cf0\b0\f0 
+\par \cf1\b 004 - Atributo: \cf2\b0 CALIBRAGEM_PNEU\cf1\b 
+\par \cf0\b0 varchar(100)
+\par 
+\par \cf1\b 005 - Atributo: \cf2\b0 CARROS\cf1\b 
+\par \cf0\b0 varchar(60)
+\par 
+\par \cf1\b 006 - Atributo: \cf2\b0 CARROS_EL\f1\'c9TRICOS\cf1\b 
+\par \cf0\b0\f0 varchar(60)
+\par 
+\par \cf1\b 007 - Atributo: \cf2\b0 CHEVROLET\cf1\b 
+\par \cf0\b0 varchar(60)
+\par 
+\par \cf1\b 008 - Atributo: \cf2\b0 CLIENTE\cf1\b 
+\par \cf0\b0 varchar (60)
+\par 
+\par \cf1\b 009 - Atributo: \cf2\b0 COR\cf1\b 
+\par \cf0\b0 varchar(60)
+\par 
+\par \cf1\b 010 - Atributo: \cf2\b0 CPF\cf1\b 
+\par \cf0\b0 varchar(14)not null unique 
+\par 
+\par \cf1\b 011 - Atributo: \cf2\b0 CPF\cf1\b 
+\par \cf0\b0 varchar(15) not null unique
+\par 
+\par \cf1\b 012 - Atributo: \cf2\b0 CPF\cf1\b 
+\par \cf0\b0 varchar(14) nor null unique
+\par 
+\par \cf1\b 013 - Atributo: \cf2\b0 CUSTO \cf1\b 
+\par \cf0\b0 decimal(5,2( defaul 0.00
+\par 
+\par \cf1\b 014 - Atributo: \cf2\b0 CUSTO _INICIAL\cf1\b 
+\par \cf0\b0 varchar(5,2)
+\par 
+\par \cf1\b 015 - Atributo: \cf2\b0 CUSTO_FINAL\cf1\b 
+\par \cf0\b0 decimal(5,2)
+\par 
+\par \cf1\b 016 - Entidade: \cf2\b0 Clientes\cf1\b 
+\par \cf0\b0 A entidade Cliente Faz Rela\f1\'e7\'e3o com a Entidade Servi\'e7os  e com a entidade funcionarios
+\par Tipo de Dados: int primary key, varchar(15) not null unique, varchar(60) not null,varchar(100),varchar(100) not null 
+\par \f0 
+\par \cf1\b 017 - Atributo: \cf2\b0 DATA_ABERTURA\cf1\b 
+\par \cf0\b0 data
+\par 
+\par \cf1\b 018 - Atributo: \cf2\b0 DATA_FECHAMENTO\cf1\b 
+\par \cf0\b0 data
+\par 
+\par \cf1\b 019 - Atributo: \cf2\b0 EMAIL\cf1\b 
+\par \cf0\b0 varchar(100) not null
+\par 
+\par \cf1\b 020 - Atributo: \cf2\b0 EMAIL\cf1\b 
+\par \cf0\b0 varchar(100)
+\par 
+\par \cf1\b 021 - Atributo: \cf2\b0 EMAIL\cf1\b 
+\par \cf0\b0 varchar(100)
+\par 
+\par \cf1\b 022 - Atributo: \cf2\b0 ENDERE\f1\'c7O\cf1\b 
+\par \cf0\b0\f0 varchar(100) not null
+\par 
+\par \cf1\b 023 - Atributo: \cf2\b0 ENDERE\f1\'c7O\cf1\b 
+\par \cf0\b0\f0 varchar(100) not null  
+\par \cf1\b 024 - Atributo: \cf2\b0 ENTREGA\cf1\b 
+\par \cf0\b0 varchar (100)
+\par 
+\par \cf1\b 025 - Atributo: \cf2\b0 FORD\cf1\b 
+\par \cf0\b0 varchar(60)
+\par 
+\par \cf1\b 026 - Atributo: \cf2\b0 FORMA_PAGAMENTO \cf1\b 
+\par \cf0\b0 varchar(60)
+\par 
+\par \cf1\b 027 - Atributo: \cf2\b0 FORNECEDOR_PE\f1\'c7A\cf1\b 
+\par \cf0\b0\f0 varchar(100)
+\par 
+\par \cf1\b 028 - Atributo: \cf2\b0 FORNECEDOR_VEICULO\cf1\b 
+\par \cf0\b0 varchar(100)
+\par 
+\par \cf1\b 029 - Rela\f1\'e7\'e3o: \cf2\b0 Fornece\cf1\b 
+\par \cf0\b0\f0 
+\par \cf1\b 030 - Entidade: \cf2\b0 Fornecedores\cf1\b 
+\par \cf0\b0 A entidade Fornecedores tem rela\f1\'e7\'e3o com  a Entidade Modelos 
+\par Tipos de dados: Int primary key , varchar(100), varchar(14) not null unique e varchar(15)
+\par  \f0 
+\par \cf1\b 031 - Entidade: \cf2\b0 Funcionarios\cf1\b 
+\par \cf0\b0 A Entidade Funcion\f1\'e1rios tem rela\'e7\'e3o com a Entidade Cliente  e com a entidade modelos
+\par Tipo Dados: Int primary key, Varchar(14) not null unique, varchar(15),varchar(100), decimal(5,2) default 0.00
+\par \f0 
+\par \cf1\b 032 - Atributo: \cf2\b0 HONDA\cf1\b 
+\par \cf0\b0 varchar(60)
+\par 
+\par \cf1\b 033 - Atributo: \cf2\b0 Id_Clientes\cf1\b 
+\par \cf0\b0 
+\par \cf1\b 034 - Atributo: \cf2\b0 Id_Fornecedores\cf1\b 
+\par \cf0\b0 int primary key
+\par 
+\par \cf1\b 035 - Atributo: \cf2\b0 Id_Funcion\f1\'e1rios\cf1\b 
+\par \cf0\b0\f0 int primary key
+\par 
+\par \cf1\b 036 - Atributo: \cf2\b0 Id_Marcas\cf1\b 
+\par \cf0\b0 int primary key 
+\par 
+\par \cf1\b 037 - Atributo: \cf2\b0 Id_Modelos\cf1\b 
+\par \cf0\b0 int primary key
+\par 
+\par \cf1\b 038 - Atributo: \cf2\b0 Id_Ordem_Servi\f1\'e7o\cf1\b 
+\par \cf0\b0\f0 int primary key 
+\par 
+\par \cf1\b 039 - Atributo: \cf2\b0 Id_Pagamento\cf1\b 
+\par \cf0\b0 int primary key 
+\par 
+\par \cf1\b 040 - Atributo: \cf2\b0 Id_Pe\f1\'e7as\cf1\b 
+\par \cf0\b0\f0 int primary key 
+\par 
+\par \cf1\b 041 - Atributo: \cf2\b0 Id_Servi\f1\'e7os\cf1\b 
+\par \cf0\b0\f0 int primary key
+\par 
+\par \cf1\b 042 - Atributo: \cf2\b0 Id_Ve\f1\'edculos\cf1\b 
+\par \cf0\b0\f0 int primary key
+\par 
+\par \cf1\b 043 - Atributo: \cf2\b0 MANUTEN\f1\'c7\'c3O \cf1\b 
+\par \cf0\b0\f0 varchar(100)
+\par 
+\par \cf1\b 044 - Atributo: \cf2\b0 MODELO\cf1\b 
+\par \cf0\b0 varchar(100)
+\par 
+\par \cf1\b 045 - Atributo: \cf2\b0 MOTOS\cf1\b 
+\par \cf0\b0 varchar(60)
+\par 
+\par \cf1\b 046 - Atributo: \cf2\b0 MOTOS_EL\f1\'c9TRICAS\cf1\b 
+\par \cf0\b0\f0 varchar(60)
+\par 
+\par \cf1\b 047 - Entidade: \cf2\b0 Marcas\cf1\b 
+\par \cf0\b0 A Entidade Marcas faz rela\f1\'e7\'e3o com a Entidade Veiculos 
+\par Tipo de Dados:int primary key,varchar(60)
+\par \f0 
+\par \cf1\b 048 - Entidade: \cf2\b0 Modelos\cf1\b 
+\par \cf0\b0 A entidade Modelos tem rela\f1\'e7\'e3o com a Endentidade Funcion\'e1rios E a Entidade Fornecedores
+\par Tipos De Dados:Int primary key, varchar(60) e varchar(15)
+\par \f0 
+\par \cf1\b 049 - Atributo: \cf2\b0 NOME_CLIENTE \cf1\b 
+\par \cf0\b0 varchar(60) not null
+\par 
+\par \cf1\b 050 - Atributo: \cf2\b0 NOME_PE\f1\'c7A\cf1\b 
+\par \cf0\b0\f0 varchar(60)
+\par 
+\par \cf1\b 051 - Atributo: \cf2\b0 OR\f1\'c7AMENTO\cf1\b 
+\par \cf0\b0\f0 decimal(5,2) default 0.00
+\par 
+\par \cf1\b 052 - Entidade: \cf2\b0 Ordem de Servi\f1\'e7o \cf1\b 
+\par \cf0\b0\f0 N\f1\'e3o faz rela\'e7\'e3o com nenhuma Entidade 
+\par Tipo de Dados:Int primary key, varchar (100)
+\par \f0 
+\par \cf1\b 053 - Atributo: \cf2\b0 PE\f1\'c7AS_VEICULO\cf1\b 
+\par \cf0\b0\f0 varchar(100)
+\par 
+\par \cf1\b 054 - Atributo: \cf2\b0 PINTURA\cf1\b 
+\par \cf0\b0 varchar(100)
+\par 
+\par \cf1\b 055 - Atributo: \cf2\b0 PLACA\cf1\b 
+\par \cf0\b0 varchar(15)
+\par 
+\par \cf1\b 056 - Atributo: \cf2\b0 PLACA\cf1\b 
+\par \cf0\b0 varchar(15)
+\par 
+\par \cf1\b 057 - Entidade: \cf2\b0 Pagamento \cf1\b 
+\par \cf0\b0 N\f1\'e3o tem rela\'e7\'e3o com nenhuma Entidade
+\par Tipo de Dados:Int primary key, decimal(5,2),varchar(60),
+\par \f0 
+\par \cf1\b 058 - Rela\f1\'e7\'e3o: \cf2\b0 Para\cf1\b 
+\par \cf0\b0\f0 
+\par \cf1\b 059 - Rela\f1\'e7\'e3o: \cf2\b0 Pedem \cf1\b 
+\par \cf0\b0\f0 
+\par \cf1\b 060 - Entidade: \cf2\b0 Pe\f1\'e7as\cf1\b 
+\par \cf0\b0\f0 A Entidade Pe\f1\'e7as tem rela\'e7\'e3o com a Entidade Servi\'e7os 
+\par Tipos de Dados: int primary key, varchar(600, varchar(100),decimal(5,2) default 0.00
+\par \f0 
+\par \cf1\b 061 - Rela\f1\'e7\'e3o: \cf2\b0 Possuem\cf1\b 
+\par \cf0\b0\f0 
+\par \cf1\b 062 - Rela\f1\'e7\'e3o: \cf2\b0 Precisam\cf1\b 
+\par \cf0\b0\f0 
+\par \cf1\b 063 - Atributo: \cf2\b0 SAL\f1\'c1RIO\cf1\b 
+\par \cf0\b0\f0 Decimal (5,2) default 0.00
+\par 
+\par \cf1\b 064 - Atributo: \cf2\b0 SERVI\f1\'c7OS_REALIZADOS\cf1\b 
+\par \cf0\b0\f0 varchar(100)
+\par 
+\par \cf1\b 065 - Atributo: \cf2\b0 STATUS\cf1\b 
+\par \cf0\b0 
+\par \cf1\b 066 - Entidade: \cf2\b0 Servi\f1\'e7os\cf1\b 
+\par \cf0\b0\f0 A entidade Servi\f1\'e7os Tem rela\'e7\'e3o com a Entidade Pe\'e7as e com a endentidade Clientes
+\par Tipo de Dados:int primary key, varchar(100)
+\par \f0 
+\par \cf1\b 067 - Atributo: \cf2\b0 TAMANHO\cf1\b 
+\par \cf0\b0 int
+\par 
+\par \cf1\b 068 - Atributo: \cf2\b0 TELEFONE\cf1\b 
+\par \cf0\b0 varchar(15)
+\par 
+\par \cf1\b 069 - Atributo: \cf2\b0 TELEFONE\cf1\b 
+\par \cf0\b0 varchar(15) 
+\par \cf1\b 070 - Atributo: \cf2\b0 TELEFONE\cf1\b 
+\par \cf0\b0 varchar(15)
+\par 
+\par \cf1\b 071 - Atributo: \cf2\b0 TIPOS_MODELOS\cf1\b 
+\par \cf0\b0 varchar (100)
+\par 
+\par \cf1\b 072 - Atributo: \cf2\b0 TIPO_PE\f1\'c7A\cf1\b 
+\par \cf0\b0\f0 varchar(100)
+\par 
+\par \cf1\b 073 - Atributo: \cf2\b0 TOYOTA\cf1\b 
+\par \cf0\b0 varchar(60)
+\par 
+\par \cf1\b 074 - Atributo: \cf2\b0 VALOR_MAO_OBRA\cf1\b 
+\par \cf0\b0 decimal5,2)
+\par 
+\par \cf1\b 075 - Atributo: \cf2\b0 VENDA_PE\f1\'c7A\cf1\b 
+\par \cf0\b0\f0 varchar(100)
+\par 
+\par \cf1\b 076 - Entidade: \cf2\b0 Ve\f1\'edculos\cf1\b 
+\par \cf0\b0\f0 A entidade Veiculos se Relaciona com a entidade Marcas 
+\par Tipos de dados: Int primary key, Varchar(60),varchar(15),varchar(100)
+\par 
+\par 
+\par }
+ 
