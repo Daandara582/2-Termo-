@@ -1,0 +1,122 @@
+body{
+    background-color: rgb(252, 237, 244);
+    margin: (100);
+}
+
+header  {
+    font-family: Arial, sans-serif;
+    background-color: rgb(102, 4, 41);
+    text-align: center;
+    color:aliceblue
+}
+
+.Sobre{
+    color: aliceblue;
+    font-family: Arial, sans-serif;
+    background-color: rgb(102, 4, 41);
+    text-align: center;
+
+}
+
+nav a {
+    font-family: Arial, sans-serif;
+    color:aliceblue
+    
+}
+
+.Missão{
+    color: aliceblue;
+    font-family: Arial, sans-serif;
+    background-color: rgb(102, 4, 41);
+    text-align:left
+   
+}
+
+.NossosServicos{
+     text-align: center;
+     color:rgb(102, 4, 41)
+}
+
+.DesenvolvimentoWeb {
+    color: aliceblue;
+    text-align:left;
+    Background-color: rgb(102, 4, 41);
+
+}
+
+.Bem-Vindo{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color:rgb(102, 4, 41);
+}
+
+.Sistemas{
+    color: aliceblue;
+    Background-color: rgb(102, 4, 41);
+}
+
+.Bancodedados{
+    color: aliceblue;
+    Background-color: rgb(102, 4, 41);
+}
+.Consultoriaemtecnologia{
+     color: aliceblue;
+    Background-color: rgb(102, 4, 41);
+}
+
+.NossaEquipe {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    Background-color: rgb(102, 4, 41);
+    color: aliceblue;
+}
+
+.Carlos {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    Background-color: rgb(102, 4, 41);
+    color: aliceblue;
+}
+
+.Mariana {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    Background-color: rgb(102, 4, 41);
+    color: aliceblue;  
+}
+
+.NossoProjeto {
+    text-align: center;
+    color: rgb (102, 4, 41);
+}
+
+.Sistemadevendas {
+  text-align: left;
+  Background-color: rgb(102, 4, 41);
+  color: aliceblue;  
+}
+
+.AplicativoEmpresarial{
+  text-align: left;
+  Background-color: rgb(102, 4, 41);
+  color: aliceblue;  
+}
+.SiteInstitucional{
+  text-align: left;
+  Background-color: rgb(102, 4, 41);
+  color: aliceblue;  
+}
+
+img {
+    height: 200px;
+    width: 200px ;
+    position:relative;
+    top: 20px;
+    left: 10px;
+}
+
+footer{
+     Background-color: rgb(102, 4, 41);
+     color: aliceblue; 
+
+}
