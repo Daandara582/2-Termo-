@@ -90,5 +90,20 @@ header nav a {
     transition: all 0.3s ease;
 }
 
+.lista-café {
+       display:flex;
+    /* flex-direction:row-reverse;
+    justify-content:space-between; */
+    /* justify-content:space-around; */
+    /* justify-content:space-evenly; */
+    gap:40px;
+    list-style:none;
+    align-items:center;
+    margin:0;
+    padding:0;
+}
 
-
+header.cafe-cabecalho {
+    text-align: right;
+}
+ 
