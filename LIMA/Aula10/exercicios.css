@@ -1,0 +1,57 @@
+/*------------------------ Exercicio 1 e 2 -------------------- */
+.grid-lista {
+     display: grid;
+     /* grid-template-columns: 2fr 1fr ; */
+     grid-template-columns: repeat(3,1fr);
+     gap:43px;
+     list-style: none;
+     margin:0;
+     padding:0;
+}
+
+
+/* -------------------------Exercício 3--------------------*/
+.grid-img {
+      display: grid;
+     grid-template-columns: 1fr;
+     /* grid-template-columns: repeat(3,1fr); */
+     gap:43px;
+     list-style: none;
+     margin:0;
+     padding:0;
+}
+
+
+/*------------------- Exercicio 4 - repeat ----------------- */
+
+
+.grid-img {
+    grid-template-columns: repeat(3,1fr);
+}
+
+
+/*------------------- Exercício 5 - Responsividade---------- */
+/* Desktop */
+@media (max-width: 500px) {
+    .grid-img{
+        grid-template-columns:repeat(3, 1fr);
+    }
+}
+
+/* tablet */
+@media (max-width: 300px) {
+    .grid-img {
+        grid-template-columns:repeat(2,1fr);
+    }
+}
+
+/* celular */
+@media (max-width:100px) {
+     .grid-img {
+          grid-template-columns: 1fr;
+     }
+}
+
+/* -----------------------Exercício 6--------------------*/
+
+
