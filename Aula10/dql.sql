@@ -5,6 +5,9 @@
 
 -- SELECT coluna
 -- FROM tabela;
+
+USE smartcoffee;
+
 SHOW tables;
 
 SELECT * FROM cliente;
@@ -12,7 +15,7 @@ SELECT * FROM cliente;
 
 SELECT nome,telefone FROM cliente;
 
-SELECT nome, ativo FROM produtos;
+ SELECT nome, ativo FROM produto;
 -- CONSULTAR DADOS COM VÁRIAS COLUNAS 
 
 -- EX 2: CONSULTANDO E PESONALIZANDO  A CONSULTA
@@ -24,7 +27,7 @@ SELECT nome, preco, preco * 1.00 AS preco_ajustado
 FROM produto; 
 
 -- EX 3: DISTINCT - ELIMINAR REPETIÇÕES 
-SELET DISTINCT cidade 
+SELECT DISTINCT cidade 
 FROM cliente;
 
 SELECT cidade FROM cliente;
@@ -42,7 +45,7 @@ SELECT cidade FROM cliente;
 -- <= MENOR OU IGUAL 
 
 SELECT nome, preco FROM produto WHERE  preco >10;
--- CONSULTAR PRECOS QUE POSSUEM VAOR ACIMA DE 10.00 REAIS 
+-- CONSULTAR PRECOS QUE POSSUEM VALOR ACIMA DE 10.00 REAIS 
 
 SELECT nome,preco FROM produto WHERE  ativo = TRUE; 
 
@@ -145,7 +148,7 @@ FROM produto
 ORDER BY preco DESC
 LIMIT 10;
 
-SELECT nome,produto
+SELECT nome
 FROM produto
 ORDER BY nome
 LIMIT 10 OFFSET 5;
@@ -192,7 +195,7 @@ FROM cliente;
 
 SELECT COUNT(*) AS TOTAL_CLIENTE
 FROM cliente;
-QUANTOS CLIENTES EXISTEM NA TABELA
+-- QUANTOS CLIENTES EXISTEM NA TABELA
 
 SELECT ROUND(AVG(preco),2) AS Preço_Médio_Produtos
 FROM produto;
@@ -223,6 +226,25 @@ FROM produto
 GROUP BY id_categoria;
 
 -- QUANTIDADE DE PRODUTOS POR CATEGORIA 
+
+-- EX 16: HAVING - CRIAR CONDIÇÕES EM AGRUPAMENTOS
+-- -- WHERE FILTRA LINHAS ANTES DO AGRUPAMENTO 
+-- HAVING ILTRA LINHAS DEPOIS DO GROUP BY
+
+SELECT cidade, COUNT(*) AS QTDE_CLIENTES
+FROM cliente
+GROUP BY cidade
+HAVING COUNT(*) <= 10;
+-- CONSULTA PARA CIDADES COM PELOS MENOS DOIS CLIENTES
+-- EX 17 : RESUMO DE UM CONSULTA COMPLETA
+
+-- SELECT colunas
+-- FROM tabeela
+-- WHERE condicao
+-- GROUP BY coluna_agrupar
+-- HAVING condicao_agrupar
+-- ORDER BY colunas
+-- LIMIT  quantidade;
 
 
 
