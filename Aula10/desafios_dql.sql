@@ -1,4 +1,4 @@
--- Active: 1788519235565@@127.0.0.1@3306@smartcoffee_dml_dandara
+-- Active: 1788519235565@@127.0.0.1@3306@aula8
 -- ============================================================
 -- AULA 09 - ATIVIDADE PRÁTICA DE DQL
 -- Nome: Dandara Pessôa Dias
