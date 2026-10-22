@@ -107,3 +107,274 @@ header.cafe-cabecalho {
     text-align: right;
 }
  
+
+/* 
+-------------------------------------------- */
+
+body {
+background-color: #edcdd8;
+justify-content: center;
+align-items: center;
+margin: 0;
+font-family: 'Betania Patmos In', cursive;
+}
+
+body > header {
+background-color: #795548;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 20px 40px;
+border-radius:80px; 
+}
+
+
+body > header h1,
+body > header nav a {
+color: #FFFFFF;
+}
+
+header {
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 20px 40px;
+}
+
+
+header nav ul {
+display: flex;
+align-items: center;
+gap: 30px;
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+
+header nav a {
+text-decoration: none;
+}
+
+
+.banner {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+gap: 40px;
+}
+
+
+.banner-imagem {
+flex: 1;
+margin: 0;
+display:flex;
+justify-content: flex-end;
+padding-right: 90px;
+}
+
+
+.banner-imagem img {
+display: block;
+width: 100%;
+max-width: 550px;
+height: auto;
+margin-top:-200px ;
+padding-right: 80px; 
+border-radius:20px;
+}
+
+
+.banner-conteudo {
+flex:1;
+display: block;
+margin-top:90px;
+}
+
+
+.banner-conteudo h2 {
+font-size: 30px;
+}
+
+
+.banner-conteudo p {
+font-size: 20px;
+}
+
+
+.banner-conteudo a {
+background-color: #795548;
+color: #FFFFFF;
+text-decoration: none;
+padding: 12px 24px;
+border-radius: 10px;
+display: inline-block;
+}
+
+
+.lista-café {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+ justify-content:space-around; 
+justify-content: space-between; 
+gap: 30px;
+list-style: none;
+padding: 0;
+margin: 0;
+}
+
+
+.lista-café .card-café img,
+.lista-café .card-cafe img {
+width: 80%;
+height: 230px;
+object-fit: cover;
+display: block;
+border-radius: 60px;
+margin-left: auto;
+margin-right: auto;
+}
+
+
+
+#cafes,
+.lista-café {
+background-color: #f7e8df;
+margin-left: 30px;
+margin-right: 30px;
+border-radius: 30px;
+margin-top: -35px;
+}
+
+
+#ambiente {
+background-color: #f3dfd2;
+margin-left: 0;
+margin-right: 0;
+width: 100%;
+box-sizing: border-box;
+margin-top: 40px;
+text-align:center
+}
+
+
+ /* Espaçamento das seções  */
+#cafes,
+#ambiente,
+#contato,
+#sobre {
+padding-top: 50px;
+padding-bottom: 50px;
+}
+
+
+.cafe-cabecalho h2 {
+font-size: 25px;
+margin-top: -30px;
+}
+
+
+.card-café,
+.card-cafe {
+text-align: center;
+}
+
+
+.card-café h3,
+.card-cafe h3 {
+text-align: center;
+margin-top: 15px;
+}
+
+
+.card-café p,
+.card-cafe p {
+text-align: center;
+margin-top: 10px;
+}
+
+
+.card-café strong,
+.card-cafe strong {
+display: block;
+text-align: center;
+margin-top: 15px;
+}
+
+body > footer {
+background-color: #795548;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 20px 40px;
+}
+
+
+body > footer p,
+body > footer nav a {
+color: #FFFFFF;
+}
+
+
+body > footer p {
+margin: 0;
+}
+
+
+body > footer nav ul {
+display: flex;
+align-items: center;
+gap: 30px;
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+
+body > footer nav a {
+text-decoration: none;
+}
+
+
+.ambiente-conteudo {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+margin-top: -40px;
+align-items: center;
+}
+
+
+.ambiente-conteudo a {
+background-color: #795548;
+color: #FFFFFF;
+text-decoration: none;
+padding: 12px 24px;
+border-radius: 10px;
+display: inline-block;
+}
+
+
+#ambiente > a {
+background-color: #795548;
+color: #FFFFFF;
+text-decoration: none;
+padding: 12px 24px;
+border-radius: 10px;
+display: inline-block;
+}
+
+
+.ambiente-imagem {
+display: flex;
+justify-content: center;
+margin-top: 30px;
+}
+
+
+.ambiente-imagem img {
+max-width: 500px;
+width: 100%;
+border-radius: 15px;
+}

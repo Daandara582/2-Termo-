@@ -132,6 +132,7 @@ CREATE TABLE Cliente (
     email VARCHAR(60)
 );
 
+
 CREATE TABLE Funcionarios (
     Id_Funcionarios INT AUTO_INCREMENT PRIMARY KEY,
     nome VARCHAR(60) NOT NULL,

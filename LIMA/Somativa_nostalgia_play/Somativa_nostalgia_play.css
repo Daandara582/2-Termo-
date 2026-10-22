@@ -1,0 +1,115 @@
+body {
+    background-color: rgb(40, 38, 151);
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+
+header {
+    color:aliceblue
+}
+
+h1 {
+    color:aliceblue
+}
+
+p {
+    color:aliceblue
+}
+
+h4 {
+    color: aliceblue;
+}
+
+h2 {
+    color: aliceblue
+}
+
+body > header {
+background-color: rgb(7, 7, 49);
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 20px 40px;
+color: aliceblue;
+}
+
+header nav ul {
+display: flex;
+align-items: center;
+gap: 30px;
+list-style: none;
+margin: 0;
+padding: 0;
+color: aliceblue;
+}
+
+body > header h1,
+body > header nav a {
+color: #FFFFFF;
+}
+
+.banner {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+gap: 40px;
+}
+
+.banner-conteudo {
+flex:1;
+display: block;
+margin-top:90px;
+}
+
+.Classicos {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+ justify-content:space-around; 
+justify-content: space-between; 
+gap: 30px;
+list-style: none;
+padding: 0;
+margin: 0;
+}
+
+.Classicos .card-classicos img,
+.Classicos .card-classicos img {
+width: 80%;
+height: 315px;
+object-fit: cover;
+display: block;
+border-radius: 20px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.Heróis {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+ justify-content:space-around; 
+justify-content: space-between; 
+gap: 30px;
+list-style: none;
+padding: 0;
+margin: 0;
+}
+
+.Heróis .card-Heróis img,
+.Heróis .card-Heróis img {
+width: 80%;
+height: 315px;
+object-fit: cover;
+display: block;
+border-radius: 20px;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+
+
+
+

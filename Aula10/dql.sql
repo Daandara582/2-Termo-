@@ -12,6 +12,8 @@ SHOW tables;
 
 SELECT * FROM cliente;
 -- CONSULTA TODAS AS COLUNAS NA TABELA 
+INSERT INTO cliente (nome, cpf, endereco, telefone, email) 
+VALUES ('João Silva', '123.456.789-00', 'Rua Principal, 123', '11999998888', 'joao@email.com');
 
 SELECT nome,telefone FROM cliente;
 
