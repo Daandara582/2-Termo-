@@ -109,6 +109,15 @@ margin-right: auto;
 
 }
 
+.banner-conteudo a {
+background-color: #df11a1;
+color: #FFFFFF;
+text-decoration: none;
+padding: 12px 24px;
+border-radius: 10px;
+display: inline-block;
+}
+
 
 
 
