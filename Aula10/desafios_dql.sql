@@ -77,7 +77,14 @@ WHERE status
 -- PARTE D - RELACIONAMENTOS
 
 -- 16. Liste cada pedido exibindo id, data, nome do cliente, status e valor total.
-
+SELECT p.id_pedido,
+       p.data_pedido,
+       c.nome AS cliente,
+       p.status,
+       p.valor_total
+FROM pedido AS p
+INNER JOIN cliente AS c
+  ON c.id_cliente = p.id_cliente;
 
 -- 17. Liste cada produto acompanhado do nome de sua categoria.
 
