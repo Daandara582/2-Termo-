@@ -153,6 +153,3 @@ LEFT JOIN cliente e ON u.Id_cliente  = e.Id_cliente
 GROUP BY u.Id_cliente, u.nome
 ORDER BY total_cliente DESC;
 
-
-
-

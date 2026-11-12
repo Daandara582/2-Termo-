@@ -184,6 +184,7 @@ COMMIT;
 
 -- 22.ROLLBACK
 
+
 SELECT Id_livro, Titulo, Quantidade_disponiveis 
 FROM Livros 
 WHERE id_livro = 5;
