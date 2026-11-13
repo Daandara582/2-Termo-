@@ -1,0 +1,89 @@
+body {
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    /* border: 4px solid #FFFFFF; */
+    background-color:#b9cdf3d5 ;
+}
+
+h1 {
+    color: #FFFFFF;
+}
+
+header nav a {
+color: #FFFFFF;
+}
+
+
+.titulo-secao {
+    background-color: #0d0768;
+    margin:20px;
+    text-align:center;
+    border-radius: 10px;
+
+}
+
+.titulo a {
+    text-decoration: none;
+    list-style:none;
+}
+
+
+.titulo {
+    display:flex;
+    align-items:start;
+    justify-content: flex-start;
+    text-align: center;
+}
+
+.nav {
+    display: flex;
+    gap: 32px;
+    /* justify-content: space-between; */
+    font-size:18px;
+    color:#FFFFFF
+}
+
+.conteudo {
+    text-align:center;
+    /* display: flex; */
+    gap: 48px; 
+    background-color:rgb(122, 187, 218);
+}
+
+.conteudo-art {
+    text-align: center;
+}
+
+.conteudo-art a {
+background-color: #0d0768;
+color: #FFFFFF;
+text-decoration: none;
+padding: 12px 24px;
+border-radius: 10px;
+display: inline-block;
+
+}
+
+.galeria-img {
+width: 80%;
+height: 230px;
+object-fit: cover;
+display: block;
+border-radius: 60px;
+margin-left: auto;
+margin-right: auto;
+}
+
+
+.galeria-img .card,
+.galeria-img .card {
+width: 80%;
+height: 230px;
+object-fit: cover;
+display: block;
+/* border-radius: 60px; */
+margin-left: auto;
+margin-right: auto;
+}
