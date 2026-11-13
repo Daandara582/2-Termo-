@@ -142,7 +142,7 @@ img {
     border-radius: 14px;
 }
 
-.imagem-final {
+.imagem-final  figcaption {
     position:absolute;
     inset: auto 0 0 0;
     padding: 14px;
